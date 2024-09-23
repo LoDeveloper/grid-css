@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    display: grid;
+    grid-column: 3;
+    grid-row: 3;
+    border: 2px solid black;
+}
+
+.grid-element {
+   display: grid;
+   grid-column: 3;
+   grid-row: 3;
+   gap: 24px;
+   margin: 24px;
+   
+}
+
+.one {
+  background-color: #007F5F;
+  width: 448px;
+  height: 195px;
+}
+
+.two {
+  background-color: #f2f3;
+  width: 448px;
+  height: 195px;
+}
+
+.tree {
+  background-color: #f2f3;
+  width: 448px;
+  height: 195px;
+}
+
+.four {
+  background-color: #f2f3;
+  width: 448px;
+  height: 195px;
+}
+
+.five {
+  background-color: #f2f3;
+  width: 448px;
+  height: 195px;
+}
+
+.six {
+  background-color: #f2f3;
+  width: 448px;
+  height: 195px;
+}
+
+.seven {
+  background-color: #f2f3;
+  width: 448px;
+  height: 195px;
+}
+
+.eight {
+  background-color: #f2f3;
+  width: 448px;
+  height: 195px;
+}
+
+.nine {
+  background-color: #f2f3;
+  width: 448px;
+  height: 195px;
+}
+
+.ten {
+  background-color: #f2f3;
+  width: 448px;
+  height: 195px;
+}
+
+.eleven {
+  background-color: #f2f3;
+  width: 448px;
+  height: 195px;
+}
