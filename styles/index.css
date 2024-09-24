@@ -108,3 +108,17 @@ body {
   grid-column: 5 / 6;
   grid-row: 4 / 6;
 }
+
+.container {
+  display: block;
+  background-color: #9BC1BC;
+  height: 146px;
+  width: auto;
+  padding: 24px;
+}
+
+h1 {
+ color: black;
+ margin: 24px;
+ font-size: 64px;
+}
