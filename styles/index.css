@@ -4,92 +4,107 @@
     padding: 0;
 }
 
+body {
+  height: 100vh;
+}
+
 .grid-container {
-  display: block;
-  justify-content: center;
-  align-items: center;
   margin: 24px;
   border: 2px solid black;
 }
 
 .grid-element {
    display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   grid-template-rows: 1fr 1fr 2fr;
-   justify-content: center;
-   align-items: center;
-   width: 100%;
-   gap: 24px;
-   margin: 24px;
-   
+   grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: repeat(4, 1fr);
+   margin: 24px; 
 }
 
 .one {
   background-color: #007F5F;
-  width: auto;
-  height: 448px;
-  grid-column: 1 / 2;
+  width: 448px;
+  height: 195px;
+  grid-column: 1 / 3;
   grid-row: 1 / 2;
 }
 
 .two {
   background-color: #80B918;
-  width: auto;
-  height: 100%;
+  width: 448px;
+  height: 414px;
   grid-row: 1 / 3;
+  grid-column: 2 / 4;
 }
 
 .tree {
   background-color: #DDDF00;
-  width: auto;
+  width: 448px;
   height: 122px;
-  grid-column: 3 / 4;
+  grid-column: 4 / 6;
+  grid-row: 1 / 2;
 }
 
 .four {
   background-color: #2B9348;
-  width: auto;
-  height: 100%;
+  width: 448px;
+  height: 195px;
+  grid-column: 1 / 3;
+  grid-row: 2 / 3;
 }
 
 .five {
   background-color: #EEEF20;
-  width: auto;
+  width: 448px;
   height: 122px;
+  grid-row: 2 / 3;
+  grid-column: 4 / 6;
 }
 
 .six {
-  background-color: #f2f3;
+  background-color: #55A630;
   width: 448px;
-  height: 195px;
+  height: 268px;
+  grid-row: 3 / 6;
+  grid-column: 1 / 2;
+  
 }
 
 .seven {
-  background-color: #f2f3;
+  background-color: #FFFF3F;
   width: 448px;
-  height: 195px;
+  height: 122px;
+  grid-column: 4 / 6;
+  grid-row: 3 / 4;
 }
 
 .eight {
-  background-color: #f2f3;
-  width: 448px;
-  height: 195px;
+  background-color: #AACC00;
+  width: 212px;
+  height: 122px;
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
 }
 
 .nine {
-  background-color: #f2f3;
+  background-color: #D4D700;
   width: 448px;
-  height: 195px;
+  height: 268px;
+  grid-column: 3 / 5;
+  grid-row: 4 / 6;
 }
 
 .ten {
-  background-color: #f2f3;
-  width: 448px;
-  height: 195px;
+  background-color: #BFD200;
+  width: 212px;
+  height: 122px;
+  grid-column: 2 / 3;
+  grid-row: 4 / 5;
 }
 
 .eleven {
-  background-color: #f2f3;
-  width: 448px;
-  height: 195px;
+  background-color: #007F5F;
+  width: 212px;
+  height: 268px;
+  grid-column: 5 / 6;
+  grid-row: 4 / 6;
 }
